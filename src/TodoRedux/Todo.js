@@ -14,7 +14,7 @@ function Todo() {
     const init = useSelector((state) => {
         return state.todoList.values
     })
-    
+
     function handleClick()
     {
         if(!value)
